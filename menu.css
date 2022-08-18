@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(59, 7, 7);
+}
+.wrapper {
+    display: flex;
+}
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    padding: 30px 0;
+}
+h2 {
+    color:yellow;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+ul li {
+    padding: 20px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    font-size: 18px;
+}
+a {
+    color: white;
+}
+ul li:hover {
+    background-color:rgb(59, 7, 7);
+}
+/* a:hover {
+    background-color:black;
+} */
+.main-content {
+    width: 100%;
+    padding-left: 20px;
+}
+.header {
+    padding: 30px;
+    background-color:black;
+    color: white;
+    border-bottom: 5px solid yellow;
+    padding-left: 350px;
+    font-size: 25px;
+}
+.header a {
+    color: blue;
+    font-size: 12px;
+    margin-left:  600px;
+}
+.info1 {
+    
+    width: 40%;
+    height: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.info1 img {
+    width: 500px;
+    height: 400px;
+    margin-left:25px ;
+    margin-top: 20px;
+    box-shadow: 10px 30px 50px rgb(189, 149, 149);
+}
+
+.info1 p {
+    padding-left: 220px;
+    font-size: 20px;
+    color: white;
+}
+.btn1 {
+    /* padding-left: 450px; */
+    margin-left: 200px;
+    width: 150px;
+    height: 7vh;
+    margin-top: 20px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 15px;
+    background: linear-gradient(to bottom left ,yellow,pink,skyblue);
+    margin-bottom: 30px;
+}
+
+.info2 {
+
+    width: 40%;
+    height: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.info2 img {
+    width: 500px;
+    height: 400px;
+    margin-left:25px ;
+    margin-top: 20px;
+    box-shadow: 10px 30px 50px rgb(189, 149, 149);
+}
+
+.info2 p {
+    padding-left: 220px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.info3 {
+
+    width: 40%;
+    height: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.info3 img {
+    width: 500px;
+    height: 400px;
+    margin-left:25px ;
+    margin-top: 20px;
+    box-shadow: 10px 30px 50px rgb(189, 149, 149);
+}
+
+.info3 p {
+    padding-left: 220px;
+    font-size: 20px;
+    color: white;
+}
+
+.info4 {
+
+    width: 40%;
+    height: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.info4 img {
+    width: 500px;
+    height: 400px;
+    margin-left:25px ;
+    margin-top: 20px;
+    box-shadow: 10px 30px 50px rgb(189, 149, 149);
+}
+
+.info4 p {
+    padding-left: 220px;
+    font-size: 20px;
+    color: white;
+}

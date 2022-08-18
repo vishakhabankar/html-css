@@ -1,0 +1,43 @@
+body{
+    background-image: url('back5.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+ 
+}
+
+.gallery {
+    margin-left: 15%;
+    border: 2px solid white;
+    float: left;
+    width: 960px;
+    text-align: center;
+    height: auto;
+
+    
+}
+#btn1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    padding: 15px;
+    font-size: 20px;
+    background:radial-gradient(red,orange,yellow,green,blue,purple,indigo);
+    border-color:rgb(3, 41, 3);
+    color:black;
+    border-radius: 50%;
+    font-weight: bold;
+
+
+}
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid white; */
+}
+
+.gallery img:hover {
+     filter: grayscale(100%);
+    transform: scale(1.1);
+}

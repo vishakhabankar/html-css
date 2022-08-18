@@ -1,0 +1,87 @@
+
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+   background:linear-gradient(to bottom right,white,pink,skyblue,white,lightgreen);
+}
+
+.font {
+    height: 450px;
+    width: 290px;
+    position: relative;
+    border-radius: 10px;
+    background:linear-gradient(to bottom right,rgb(231, 121, 231),white,skyblue);
+    box-shadow: 10px 30px 50px purple;
+}
+
+.companyname {
+    color:black;
+    padding: 10px;
+    font-size: 19px;
+
+}
+
+.top img {
+    height: 90px;
+    width: 90px;
+    background-color:maroon;
+    border-radius: 57px;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    object-fit: contain;
+    border: 3px solid rgb(255,255,255);
+
+
+
+    
+}
+
+.ename{
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    color:black;
+    font-size: 12px;
+
+}
+.p2 {
+    font-size: 11px;
+    color:maroon;
+}
+
+.edetails {
+    position: absolute;
+    top: 212px;
+    text-transform: capitalize;
+    font-size: 13px;
+    text-emphasis: spacing;
+    margin-left: 5px;
+    color:black;
+
+}
+
+.barcode {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 80px;
+    
+}
+
+.barcode img {
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+
